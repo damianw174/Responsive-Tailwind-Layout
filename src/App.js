@@ -46,7 +46,7 @@ function Products(){
 
         <div className="grid md:col-span-2 xs:row-start-4 md:row-start-2 self-center text-lg">Suscipit, turpis in volutpat fermentum, quam augue mollis massa, in aliquet justo nulla at libero. Aenean elit elit, commodo quis consectetur ut, sagittis ut tortor. Maecenas placerat bibendum lacus. Duis in leo in purus fringilla convallis non ut enim.</div>
         
-        <div className="shadow-xl bg-gray-50 grid place-items-center xs:row-start-2  md:row-start-2 px-10 pb-6 xs:h-auto xs:square">
+        <div className="shadow-xl bg-gray-50 grid place-items-center xs:row-start-3  md:row-start-2 px-10 pb-6 xs:h-auto xs:square">
          <h1 className="text-2xl py-2">Product Variant</h1>
          <img src={green}/>
         </div> 
