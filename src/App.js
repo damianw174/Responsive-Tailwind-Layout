@@ -19,7 +19,7 @@ import {
 function HeroHeader(){
   return(
       <header className="bg-heroBck bg-center bg-cover w-full h-screen grid place-items-center">
-        <div>
+        <div className="xs:mx-6 md:m-auto">
           <p className="xs:text-xl md:text-2xl">Hello Word!</p>
           <h1 className="xs:text-4xl md:text-6xl text-blue-700">Lorem ipsum <span className="text-blue-900">dolor sit <br/> amet, consectetur adipiscing elit.</span></h1>
           <p className="xs:text-xl md:text-2xl">Pellentesque a neque eget velit facilisis rhoncus.<br/> Ut suscipit, turpis in volutpat fermentum.  </p>
@@ -35,7 +35,7 @@ function Products(){
       
       <h1 className="text-4xl font-extrabold pt-5 mb-10"><span className="bg-blue-200">Our Products</span></h1>
 
-      <div className="grid gap-10 xs:grid-cols-1 md:grid-cols-3  md:max-w-4xl">
+      <div className="grid gap-10 xs:grid-cols-1 md:grid-cols-3  md:max-w-4xl xs:mx-6 md:m-auto">
         
         <div className="shadow-xl bg-gray-50 grid place-items-center px-10 pb-6 xs:h-auto xs:square">
          <h1 className="text-2xl py-2">Product Variant</h1>
@@ -44,9 +44,9 @@ function Products(){
 
         <div className="grid md:col-span-2 self-center text-lg">Pellentesque a neque eget velit facilisis rhoncus. Ut suscipit, turpis in volutpat fermentum, quam augue mollis massa, in aliquet justo nulla at libero. Aenean elit. Maecenas lacus dui, blandit eget mi quis, placerat bibendum lacus. Duis in leo in purus fringilla convallis non ut enim.</div>
 
-        <div className="grid md:col-span-2 self-center text-lg">Suscipit, turpis in volutpat fermentum, quam augue mollis massa, in aliquet justo nulla at libero. Aenean elit elit, commodo quis consectetur ut, sagittis ut tortor. Maecenas placerat bibendum lacus. Duis in leo in purus fringilla convallis non ut enim.</div>
+        <div className="grid md:col-span-2 xs:row-start-4 md:row-start-2 self-center text-lg">Suscipit, turpis in volutpat fermentum, quam augue mollis massa, in aliquet justo nulla at libero. Aenean elit elit, commodo quis consectetur ut, sagittis ut tortor. Maecenas placerat bibendum lacus. Duis in leo in purus fringilla convallis non ut enim.</div>
         
-        <div className="shadow-xl bg-gray-50 grid place-items-center px-10 pb-6 xs:h-auto xs:square">
+        <div className="shadow-xl bg-gray-50 grid place-items-center xs:row-start-2  md:row-start-2 px-10 pb-6 xs:h-auto xs:square">
          <h1 className="text-2xl py-2">Product Variant</h1>
          <img src={green}/>
         </div> 
@@ -66,7 +66,7 @@ function Products(){
 function Workers(){
   return(
     <div className="grid place-items-center min-h-screen py-5 bg-gray-100">
-      <div className="max-w-4xl grid gap-4 xs:grid-cols-2 md:grid-cols-4">
+      <div className="max-w-4xl grid gap-4 xs:grid-cols-2 md:grid-cols-4 xs:mx-6 md:m-auto">
 
         <h1 className="xs:col-span-2 md:col-span-4 xs:w-1/2 text-4xl font-extrabold mt-10"><span className="bg-blue-200">Our Powerfull Team</span></h1>
         <p className="xs:self-center md:col-start-4 md:row-start-2 text-xl">Join our young and powerfull team and create great projects with us!</p>        
