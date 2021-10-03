@@ -6,7 +6,7 @@ Projekt stworzyłem w celu lepszego poznania Taiwlind CSS. Wykorzystałem równi
 Wygląd strony, ikony i tło zostały zaprojektowane przeze mnie.
 
 ### Otworzenie projektu
-git colone https://github.com/damianw174/Responsive-Tailwind-Layout.git
+ $ git clone https://github.com/damianw174/Responsive-Tailwind-Layout.git
 
 Uwaga
 !PostCSS plugin tailwindcss requires PostCSS 8!
